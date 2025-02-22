@@ -12,7 +12,6 @@ const secondsSpan = document.querySelector("[data-seconds]");
 
 let userSelectedDate = null;
 let countdownInterval = null;
-
 startButton.disabled = true;
 
 const options = {
@@ -37,7 +36,6 @@ const options = {
 };
 
 flatpickr(input, options);
-
 function startCountdown() {
     startButton.disabled = true;
     input.disabled = true;
